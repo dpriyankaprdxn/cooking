@@ -107,6 +107,10 @@ li {
   Header styling starts here
 =================================*/
 
+h1 nav {
+  display: inline-block;
+  float: left;
+}
 
 
 
