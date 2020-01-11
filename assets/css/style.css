@@ -129,7 +129,7 @@ h1 {
 
 nav {
   float: right;
-  padding: 30px 0px;
+  padding: 20px 10px;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -153,7 +153,7 @@ nav li a span { color: #aa5653;  }
   text-align: center;
  }
 
-header .wrapper { 
+header .wrapper, .banner .wrapper { 
   margin: 0px 0px; 
   width:100%;
 }
@@ -165,13 +165,103 @@ header .wrapper {
 /*=================================
   main styling starts here
 =================================*/
+.cook-this-week, .recipes-video-block, .more-from-editor { background-color: #f5f1ee; }
 
+p {
+  color: #666;
+}
+/*=================================
+  cook-this-week styling start here
+=================================*/  
 
+.cook-this-week { padding: 50px 0px; }
 
+.cook-this-week h3 { 
+  font: 50px bold ; 
+  text-align: center;
+}
 
+.free-recipes { 
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  border-bottom: 5px #000 solid;
+}
 
+.cook-this-week h4, .recipes-video-block h4, .more-from-editor h4 {
+  font-size: 30px; 
+  color: #32312f;
+  padding: 10px 0px;
+}
 
+.pcustom { font-size: 25px; }
 
+.pcustom span { text-transform: capitalize; }
+
+.recipes h6 { 
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+.recipes h6, .recipes p {
+  padding: 10px;
+}
+
+.recipes li{ 
+  width: 20%;
+  margin: 25px 6px;
+  background-color: #fff;
+}
+
+.recipes .fa { float: right; }
+
+.recipesp { font-size: 12px; }
+
+.clearfix {
+  overflow: auto;
+  padding: 10px;
+}
+
+.tips { 
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+.cook-this-week-two { 
+  display: inline-block;
+  float: left;
+  padding: 20px;
+  padding-bottom: 10px;
+  border-bottom: 5px #000 solid;
+}
+
+.cook-this-week-two li { margin-right: 50px; }
+
+input[type="email"] { padding: 8px 20px; }
+
+input[type="submit"] { 
+  padding: 8px 20px;
+  color: #fff;
+  background-color: #d44235;
+}
+
+.form-group {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+.cook-this-week-two p a {
+  color: #666;
+  text-decoration: underline;
+  padding-top: 5px;
+}
+
+/*=================================
+  cook-this-week styling end here
+=================================*/
 
 /*=================================
   main styling ends here
