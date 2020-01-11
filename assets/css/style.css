@@ -189,7 +189,7 @@ p {
   border-bottom: 5px #000 solid;
 }
 
-.cook-this-week h4, .recipes-video-block h4, .more-from-editor h4 {
+.cook-this-week h4, .recipes-video-block h4, .more-from-editor h4 ,footer h4{
   font-size: 30px; 
   color: #32312f;
   padding: 10px 0px;
@@ -200,7 +200,7 @@ p {
 .pcustom span { text-transform: capitalize; }
 
 .recipes h6 { 
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold; 
 }
 
@@ -241,7 +241,7 @@ p {
 
 input[type="email"] { padding: 8px 20px; }
 
-input[type="submit"] { 
+input[type="submit"], .more-from-editor span { 
   padding: 8px 20px;
   color: #fff;
   background-color: #d44235;
@@ -258,6 +258,35 @@ input[type="submit"] {
   text-decoration: underline;
   padding-top: 5px;
 }
+
+.recipes-video li , .recipes-video p { 
+  background-color: #241f25;
+  color: white; 
+}
+
+.all-cooking-guides { 
+  padding: 10px 20px;
+  border: 2px #241f25 solid;
+  color: #241f25;
+  margin: 0 auto;
+}
+
+.all-cooking-guides-main {
+  display: block;
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 5px #000 solid
+}
+
+.more-from-editor li {
+  text-align: center;
+  padding: 30px 0px;
+  margin-right: 10px ;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.more-from-editor h5 { padding: 15px 15px; }
 
 /*=================================
   cook-this-week styling end here
@@ -277,14 +306,7 @@ input[type="submit"] {
 
 
 
+
  /*=================================
   footer styling ends here
 =================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
