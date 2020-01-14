@@ -128,16 +128,16 @@ h1 {
 }
 
 nav {
-  float: right;
   padding: 20px 10px;
+  float: right;
   text-transform: uppercase;
   font-size: 14px;
 }
 
 nav a { 
+  padding-left: 10px;
   color: #676767;
   font-weight: bold;
-  padding-left: 10px;
 }
 
 .recipe-box-log-in { 
@@ -189,7 +189,7 @@ p {
   border-bottom: 5px #000 solid;
 }
 
-.cook-this-week h4, .recipes-video-block h4, .more-from-editor h4 ,footer h4{
+.cook-this-week h4, .recipes-video-block h4, .more-from-editor h4 , .footerdiv h4{
   font-size: 30px; 
   color: #32312f;
   padding: 10px 5px;
@@ -297,16 +297,20 @@ input[type="submit"], .more-from-editor span {
 }
 
 
-.footer-social a { 
+.footer-social a, .footer-social1 a { 
   color: #666;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  padding:10px;
 }
 
 .footermenu { 
   color: #fff;
   background-color: #272228;
-  padding: 20px;
+  padding: 30px 10px;
   width: 100%;
   margin-right: 5px;
+  margin-top: 50px;
 }
 
 .footermenu a:not(:last-child) { 
@@ -345,8 +349,109 @@ input[type="submit"], .more-from-editor span {
   color: #fff;
 }
 
+.footerdiv {
+  display: inline;
+  float: left;
+}
+
+.banner-info img {
+  width: 25%;
+  border-radius: 100%;
+}
+
+.main-banner figure { position: relative; }
+
+.banner-small { 
+  position: absolute;
+  right: 7%;
+  top: 125px;
+  border-radius: 100%;
+  color: #fff;
+  background-color: #db3e35;
+  width: 120px;
+  height: 120px;
+  overflow: auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.banner-info h2 { 
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.banner-info {
+  position: absolute;
+  right: 10%;
+  top: 190px;
+  background-color: #fff;
+  padding: 12px;
+  width: 25%;
+  text-align: center;
+}
+
+.banner-info p:not(:first-child){ 
+  display: inline-block;
+  font-weight: bold;
+}
+
+.banner-social a {
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #000;
+  margin: 5px;
+}
+
+.banner-social {
+  position: absolute;
+  top: 470px;
+}
+
+.banner-small span { text-align: center; }
+
+footer .footerdiv1 {
+  display: flex;
+  margin: 40px 0px;
+}
+
+.footerdiv1 ul:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerdiv1 ul:last-child li:last-child a {
+  border: none;
+} 
+
+.footerdiv1 li{
+  padding: 10px 0px;
+}
+
+.footermenu1 { 
+  display: flex;
+  color: #fff;
+  background-color: #272228;
+  padding: 30px 10px;
+  width: 100%;
+  margin-right: 5px;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.footermenu1 a:not(:last-child) { border-right: 1px #ccc solid; }
+
+.footermenu1 a {
+  margin-right: 5px;
+  padding-right: 8px;
+  color: #fff;
+}
+
+.footer-social1 ul:last-child { border:none; }
 /*=================================
   cook-this-week styling end here
+  .banner .main-banner{ background-image: url('https://via.placeholder.com/200x100'); }
+
 =================================*/
 
 /*=================================
